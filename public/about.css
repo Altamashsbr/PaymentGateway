@@ -1,0 +1,100 @@
+
+
+
+*{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;            
+}
+body{
+    background-image: url("about.jpg");
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 16px;          
+}
+
+a{
+    text-decoration: none;
+}
+header{
+    background-color: rgba(4, 4,4, 0.45);
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 70px;
+    font-family: 'Otomanopee One', sans-serif;
+}
+h2 {
+    color: white;
+    font-family: 'Leckerli One', cursive;
+}
+
+
+.logo{
+    cursor: pointer;
+}
+.nav-area{
+    list-style: none;
+}
+.nav-area li{
+    display: inline-block;
+    padding: 0 15px;
+    text-transform: uppercase;
+}
+.nav-area li a{
+    transition: all .3s ease 0s;
+    color: #fff;
+}
+.nav-area li a:hover{
+    color: rgb(121, 121, 121);
+}
+.box {
+    width: 700px;
+    height: 350px;
+    background-color: rgb(76,40, 40,0.7);
+    position: relative;
+    top: 60px;
+    left: 315px;
+    /* animation-name: hehe 2s; */
+}
+.box-content {
+    color: white;
+    padding: 40px 30px;
+    line-height: 2;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Otomanopee One', sans-serif;
+    
+}
+
+button {
+    margin-top: 20px;
+    background-color:transparent; /* Green */
+  border: solid red;
+  border-width:1px;
+  color: white;
+  padding: 5px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  border-radius:30px;
+  font-family: 'Otomanopee One', sans-serif;
+  text-decoration: none;
+  }
+
+  button:hover {
+      background-color: rgb(7, 4, 4);
+      border-color: white;
+  } 
+  a:-webkit-any-link {
+      color: white;
+  }
